@@ -1,5 +1,16 @@
 {
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "components/*": ["components/*"],
+      "assets/*": ["assets/*"]
+    },
+    "jsx": "react"
+  },
   "typeAcquisition": {
     "include": ["jest"]
-  }
+  },
+  "exclude": [
+    "node_modules"
+  ]
 }
